@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item android:state_activated="false">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/white" />
+            <corners
+                android:topRightRadius="500dp"
+                android:bottomRightRadius="500dp"
+                >
+            </corners>
+            <stroke
+                android:color="@color/cardview_shadow_start_color"
+                android:width="1dp"
+                />
+        </shape>
+    </item>
+
+</selector>
